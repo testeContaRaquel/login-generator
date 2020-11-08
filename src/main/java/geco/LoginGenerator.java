@@ -46,6 +46,7 @@ public class LoginGenerator {
             int idx = allLoginsStartingWith.size();
             login = login + idx;
         }
+        /*correction du TP2 pas faite*/
         loginService.addLogin(login);
         return login;
     }
