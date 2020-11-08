@@ -38,10 +38,10 @@ public class LoginGeneratorTest {
         Assert.assertEquals("JROL1",login);
     }
 
-    /*@Test
+    @Test
     public void testGenerateLoginForNomAndPrenomPDU() {
         //String login = aLoginGenerator.generateLoginForNomAndPrenom("Du","Paul");
         //assertTrue("Login for Paul Dùrand not generated. Login : "+login,login.compareTo("PDU")==0);
         assertTrue("",true);
-    }*/
+    }
 }
